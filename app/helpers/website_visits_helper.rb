@@ -1,0 +1,2 @@
+module WebsiteVisitsHelper
+end

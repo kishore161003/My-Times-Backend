@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Website visits</h1>
+
+<div id="website_visits">
+  <% @website_visits.each do |website_visit| %>
+    <%= render website_visit %>
+    <p>
+      <%= link_to "Show this website visit", website_visit %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New website visit", new_website_visit_path %>
