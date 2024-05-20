@@ -43,6 +43,8 @@ class UsersController < ApplicationController
   end
 
 
+  # dont forget to add this method to the controller
+
    def login
     user = User.find_by(email: params[:user][:email])
     Rails.logger.info("User: #{user}")
