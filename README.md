@@ -65,6 +65,4 @@ rails test
  
  for Extension Refer - [GitHub Repository](https://github.com/kishore161003/my-times-extension)
 
-### Note!!!
 
-All three frontend , backend and extension code need to be neccessary for running the Extension
